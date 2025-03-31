@@ -20,6 +20,9 @@ p {
 }
 
 /* TRANSITION */
+section {
+  min-height: 96vh; /* Instead of fixed height */
+}
 
 a,
 .btn {
