@@ -20,9 +20,13 @@ p {
 }
 
 /* TRANSITION */
-section {
-  min-height: 96vh; /* Instead of fixed height */
+.about-containers,
+.experience-details-container {
+  flex-wrap: wrap;
+  min-height: auto !important;
+  overflow: visible !important;
 }
+
 
 a,
 .btn {
